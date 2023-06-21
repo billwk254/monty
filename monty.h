@@ -61,6 +61,7 @@ void stk_swap(stack_t **head, unsigned int counter);
 void stk_nothing(stack_t **head, unsigned int counter);
 void stk_subtraction(stack_t **head, unsigned int counter);
 void stk_division(stack_t **head, unsigned int counter);
+void stk_multiply(stack_t **head, unsigned int counter);
 void free_stack(stack_t *head);
 void stk_add(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
