@@ -20,7 +20,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 			  {"mul", stk_multiply},
 			  {"mod", stk_modulus},
 			  {"pchar", stk_topchar},
-			  {"pstr", f_pstr},
+			  {"pstr", stk_topstring},
 			  {"rotl", f_rotl},
 			  {"rotr", f_rotr},
 			  {"queue", stk_queue},
