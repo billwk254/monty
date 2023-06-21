@@ -58,6 +58,7 @@ void stk_pint(stack_t **head, unsigned int counter);
 void stk_stack(stack_t **head, unsigned int counter);
 void stk_pop(stack_t **head, unsigned int counter);
 void stk_swap(stack_t **head, unsigned int counter);
+void stk_nothing(stack_t **head, unsigned int counter);
 void free_stack(stack_t *head);
 void stk_add(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
