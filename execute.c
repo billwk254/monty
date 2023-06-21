@@ -21,7 +21,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 			  {"mod", stk_modulus},
 			  {"pchar", stk_topchar},
 			  {"pstr", stk_topstring},
-			  {"rotl", f_rotl},
+			  {"rotl", stk_toprotate},
 			  {"rotr", f_rotr},
 			  {"queue", stk_queue},
 			  {"stack", f_stack},

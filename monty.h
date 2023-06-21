@@ -65,6 +65,7 @@ void stk_multiply(stack_t **head, unsigned int counter);
 void stk_modulus(stack_t **head, unsigned int counter);
 void stk_topchar(stack_t **head, unsigned int counter);
 void stk_topstring(stack_t **head, unsigned int counter);
+void stk_toprotate(stack_t **head,  __attribute__((unused)) unsigned int counter);
 void free_stack(stack_t *head);
 void stk_add(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
